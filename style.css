@@ -1,0 +1,42 @@
+/*
+Theme Name:WP Bootstrap Starter Child
+Template:wp-bootstrap-starter
+*/
+
+
+ body.page-template-template-home #content.site-content { 
+      padding-top: 0;
+      padding-bottom: 0; 
+    }
+       
+    
+    .carousel-item div{
+        background-image: cover; 
+        padding-top: 40%;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-position: center center;
+        background-size: 100%;
+        
+    }
+    
+    .carousel-inner{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80vh;
+        background-position: center center;
+        
+
+    }
+    
+    .picture1 img,.picture2 img,.picture3 img{
+        border: 5px solid gray;
+        border-radius: 50%;
+        max-width: 200px;  
+        width: 90%;
+    }
+    
+    .wp-block-columns{
+        margin-bottom: 0;
+    }
